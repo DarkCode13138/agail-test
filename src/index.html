@@ -1,31 +1,358 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Template</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <div id="app">
-        <header></header>
+<html prefix="og: https://ogp.me/ns#" dir="ltr" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <div class="content-wrapper">
+  <title>Replenishment of advertising accounts with Webcom Pay no commission or VAT</title>
+  <meta name="description"
+        content="Customize your ads and replenish your advertising accounts with the best market conditions through Webcom — the official partner of Google Premium!">
 
-          <!-- expamle section (remove me) -->
-          <section id="promo" style="text-align:center;">
-            <div class="container">
-              <h1>Webpack Template</h1>
-            </div>
-          </section>
+  <meta name="google-site-verification" content="_eonxTAHAGMHS6LldNmrlS4hqUhPJyFEirqHk1m9Q1A"/>
 
-          <!-- expamle vue component -->
-          <example-component />
+  <!-- Favicons Start -->
+  <link rel="icon" type="image/ico" href="img/favicon/favicon.ico">
+  <link rel="shortcut icon" href="img/favicon/icon-64.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="img/favicon/icon-76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="img/favicon/icon-120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="img/favicon/icon-152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="img/favicon/icon-180.png" sizes="180x180">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg">
+  <!-- Favicons End -->
+
+  <!-- Social Meta Start -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Replenishment of advertising accounts with Webcom Pay no commission or VAT">
+  <meta property="og:description"
+        content="Customize your ads and replenish your advertising accounts with the best market conditions through Webcom — the official partner of Google Premium!">
+  <meta property="og:url" content="https://www.pay.webcom-group.com">
+  <meta property="og:site_name" content="Webcom pay">
+  <meta property="og:image" content="https://webcom.netsolution.pro/img/favicon/webcom-social-logo.png">
+  <meta property="og:image:width" content="300">
+  <meta property="og:image:height" content="300">
+  <meta property="fb:admins" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="Webcom">
+  <meta name="twitter:creator" content="">
+  <meta name="twitter:title" content="Replenishment of advertising accounts with Webcom Pay no commission or VAT">
+  <meta name="twitter:description"
+        content="Customize your ads and replenish your advertising accounts with the best market conditions through Webcom — the official partner of Google Premium!">
+  <meta name="twitter:image" content="https://webcom.netsolution.pro/img/favicon/webcom-social-logo.png">
+  <!-- Social Meta End -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+  <!-- Libs and main styles -->
+  <link href="css/libs.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+
+<header>
+  <div class="header__wrap">
+
+    <div class="container">
+    <nav class="header__nav">
+      <div class="header__logo">
+        <a href="main.html">
+          <img src="/assets/img/icon/logo.svg" alt="logo">
+        </a>
+      </div>
+      <ul>
+        <li class="header__nav-item"><a href="articles.html">Статьи</a></li>
+        <li class="header__nav-item"><a href="#">События</a></li>
+        <li class="header__nav-item"><a href="#">О сообществе</a></li>
+        <li class="header__nav-item"><a href="#">Вакансии</a></li>
+
+      </ul>
+      <div class="header__nav-item search--el"><a href="#">
+        <svg>
+          <use xlink:href="/assets/img/icon/sprite-diff.svg#m-search">
+          </use>
+        </svg>
+        </a>
+      </div>
+      <div class="social__link">
+        <div class="social__link-el">
+          <a href="#">
+            <svg>
+              <use xlink:href="/assets/img/icon/sprite-diff.svg#m-instagram">
+              </use>
+            </svg>
+          </a>
+        </div>
+        <div class="social__link-el">
+          <a href="#">
+            <svg>
+              <use xlink:href="/assets/img/icon/sprite-diff.svg#m-facebook">
+              </use>
+            </svg>
+          </a>
+        </div>
+        <div class="social__link-el">
+          <a href="#">
+            <svg>
+              <use xlink:href="/assets/img/icon/sprite-diff.svg#m-youtube">
+              </use>
+            </svg>
+          </a>
+        </div>
+        <div class="social__link-el">
+          <a href="#">
+            <svg>
+              <use xlink:href="/assets/img/icon/sprite-diff.svg#m-linkedin">
+              </use>
+            </svg>
+          </a>
+        </div>
+        <div class="social__link-el">
+          <a href="#">
+            <svg>
+              <use xlink:href="/assets/img/icon/sprite-diff.svg#m-email">
+              </use>
+            </svg>
+          </a>
+        </div>
+        <div class="social__link-el">
+          <a href="#">
+            <svg>
+              <use xlink:href="/assets/img/icon/sprite-diff.svg#m-telegram">
+              </use>
+            </svg>
+          </a>
         </div>
 
-        <footer></footer>
-      </div> <!-- end #app wrapper -->
-    </div> <!-- end main wrapper -->
-  </body>
+
+      </div>
+
+    </nav>
+    </div>
+  </div>
+
+</header>
+<section class="articles">
+  <div class="container">
+
+    <h3 class="articles__title">Свежии статьи</h3>
+
+    <div class="articles__wrap">
+
+      <div class="article__el">
+        <div class="article__el-wrap">
+        <div class="article__img-wrap">
+          <img src="/assets/img/photo/DSC_0508.jpg" alt="">
+        </div>
+        <div class="article__el-text">
+          <div class="article__el-title">Анализ Agile. Мифы и действительность</div>
+          <div class="article__el-desc">Профессиональная литература с термином «Agile» в названиях стала появляться на полках IT - экспертов...</div>
+
+          <div class="article__el-date">
+            <div class="article__el-date-wrap">
+              1 февраля 2020article__el
+            </div>
+            <div class="article__el-view">
+              <span>331</span>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      <div class="article__el">
+        <div class="article__el-wrap">
+        <div class="article__img-wrap">
+          <img src="/assets/img/photo/DSC_0876 1.jpg" alt="">
+        </div>
+        <div class="article__el-text">
+          <div class="article__el-title">Анализ Agile. Мифы и действительность</div>
+          <div class="article__el-desc">Профессиональная литература с термином «Agile» в названиях стала появляться на полках IT - экспертов...</div>
+
+          <div class="article__el-date">
+            <div class="article__el-date-wrap">
+              1 февраля 2020
+            </div>
+            <div class="article__el-view">
+              <span>331</span>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      <div class="article__el">
+        <div class="article__el-wrap">
+        <div class="article__img-wrap">
+          <img src="/assets/img/photo/pic_352x240.jpg" alt="">
+        </div>
+        <div class="article__el-text">
+          <div class="article__el-title">Анализ Agile. Мифы и действительность</div>
+          <div class="article__el-desc">Профессиональная литература с термином «Agile» в названиях стала появляться на полках IT - экспертов...</div>
+
+          <div class="article__el-date">
+            <div class="article__el-date-wrap">
+              1 февраля 2020
+            </div>
+            <div class="article__el-view">
+              <span>331</span>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+
+    </div>
+    <div class="article__btn-wrap">
+        <span class="btn__wrap">
+          <a href="articles.html">Все статьи</a>
+        </span>
+    </div>
+  </div>
+
+
+</section>
+
+<section class="m-events">
+  <div class="container">
+    <h3>Ближайшее событие</h3>
+    <div class="mobile__title">
+      <h4>Мотивация команды & Jira для операционного и стратегического планирования</h4>
+    </div>
+      <div class="m-events__wrap">
+        <div class="m-events__img-wrap">
+          <img src="/assets/img/photo/photo.jpg" alt="событие">
+        </div>
+        <div class="m-events__info">
+          <div class="m-events__date">
+            <span class="date">21 января</span> <span class="start-time">начало в 19:30</span>  <span class="address">пр-т Независимости, 117</span>
+          </div>
+          <div class="m-events__text">
+            <h4>Мотивация команды & Jira для операционного и стратегического планирования</h4>
+            <p>Событие посвящено гибкой методологии разработки Agile. И вы наверняка знаете, что это не просто модное слово, а набор конкретных методов и инструментов, позволяющих повысить эффективность работы и значительно увеличить скорость выполнения поставленных задач, которые...</p>
+            <div class="line__link">
+              <a href="#">
+                Перейти к событию
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    <div class="m-events__btn-wrap">
+        <span class="btn__wrap">
+          <a href="#">Все события</a>
+        </span>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+<footer>
+  <div class="container">
+  <div class="footer__wrap">
+    <div class="footer__logo">
+      <a href="main.html">
+        <img src="/assets/img/icon/logoFooter.svg" alt="">
+      </a>
+    </div>
+    <div class="footer__wrap-link">
+    <div class="footer__menu">
+      <ul class="footer__menu-wrap">
+        <li><a href="">Статьи</a></li>
+        <li><a href="">События</a></li>
+        <li><a href="">О сообществе</a></li>
+        <li><a href="">Вакансии</a></li>
+      </ul>
+    </div>
+
+    <div class="social__link">
+      <div class="social__link-el">
+        <a href="#">
+          <svg>
+            <use xlink:href="/assets/img/icon/sprite-diff.svg#m-instagram">
+            </use>
+          </svg>
+        </a>
+      </div>
+      <div class="social__link-el">
+        <a href="#">
+          <svg>
+            <use xlink:href="/assets/img/icon/sprite-diff.svg#m-facebook">
+            </use>
+          </svg>
+        </a>
+      </div>
+      <div class="social__link-el">
+        <a href="#">
+          <svg>
+            <use xlink:href="/assets/img/icon/sprite-diff.svg#m-youtube">
+            </use>
+          </svg>
+        </a>
+      </div>
+      <div class="social__link-el">
+        <a href="#">
+          <svg>
+            <use xlink:href="/assets/img/icon/sprite-diff.svg#m-linkedin">
+            </use>
+          </svg>
+        </a>
+      </div>
+      <div class="social__link-el">
+        <a href="#">
+          <svg>
+            <use xlink:href="/assets/img/icon/sprite-diff.svg#m-email">
+            </use>
+          </svg>
+        </a>
+      </div>
+      <div class="social__link-el">
+        <a href="#">
+          <svg>
+            <use xlink:href="/assets/img/icon/sprite-diff.svg#m-telegram">
+            </use>
+          </svg>
+        </a>
+      </div>
+
+
+    </div>
+
+    <div class="footer__subscribe">
+      <p>Подписаться на рассылку</p>
+      <form action="#">
+        <div class="footer__form-wrap">
+          <div class="footer__form-el">
+            <input type="text" placeholder="Ваш E-mail">
+          </div>
+
+          <button>Подписаться</button>
+        </div>
+      </form>
+
+    </div>
+    </div>
+  </div>
+  </div>
+</footer>
+
+<script src="js/libs.min.js"></script>
+
+<script src="js/app.js"></script>
+
+
+</body>
 </html>
